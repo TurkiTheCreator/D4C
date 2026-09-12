@@ -10,14 +10,14 @@
 ```
 
 A small CLI tool for translating between **binary, hex, decimal, and ASCII** —
-built for reversing/crackme work where you're constantly converting values
+built for reversing where you're constantly converting values
 between formats and doing quick XOR math.
 
 ## Features
 
 - Auto-detects whether input is binary, hex, decimal, or plain text
 - Force a specific input/output format with `--from` / `--to`
-- Built-in `xor` subcommand for byte-level XOR puzzles (crackmes, CTFs)
+- Built-in `xor` subcommand for byte-level XOR
 
 ## Usage
 
